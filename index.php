@@ -91,10 +91,10 @@
 			<div data-delay="3.0"><div class="burst">The hugest and best server</div></div>
 			<div data-delay="0">
 				<div class="burst" data-duration=".5" data-transition="peZoomIn">
-					<img src="img/content/logo.png" alt="logo" href="http://127.0.0.1/gesior/index3.php?subtopic=accountmanagement"/>
+					<a href="http://127.0.0.1/gesior/index3.php?subtopic=accountmanagement">War Tournament</a>
 				</div>
 				<div class="small" data-duration="2" data-delay="4" data-transition="fadeIn" data-x="0" data-y="110">
-					<a href="http://127.0.0.1/gesior/index3.php?subtopic=accountmanagement">Acesse nosso site / Crie sua conta</a>
+					<a href="http://127.0.0.1/gesior/index3.php?subtopic=accountmanagement">Create account</a>
 				</div>
 			</div>
 		
