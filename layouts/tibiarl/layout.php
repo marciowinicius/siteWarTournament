@@ -148,6 +148,14 @@ var FB_ForceReload = 0;
 									<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
   								</div>
 							</a>
+							<a target="_blank" href="https://www.facebook.com/Brazilian-OT-1697819087150810/" alt="Tibia Facebook Page" >
+							<div id="submenu_facebook" class="Submenuitem" onmouseover="MouseOverSubmenuItem(this)" onmouseout="MouseOutSubmenuItem(this)">
+								<div class="LeftChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
+								<div id="ActiveSubmenuItemIcon_archive" class="ActiveSubmenuItemIcon" style="background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);"></div>
+								<div id="ActiveSubmenuItemLabel_archive" class="SubmenuitemLabel">Facebook</div>
+								<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
+  							</div>
+						  </a>
 						</div>
 					</div>
 				<div id="library" class="menuitem">
