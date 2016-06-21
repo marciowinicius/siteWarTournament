@@ -148,7 +148,7 @@ mysql_query("INSERT into pagsegurotransacoes SET
 ProdQuantidade_x='$ProdQuantidade_x';");
  
 if ($StatusTransacao == "Aprovado") {
-mysql_query("UPDATE accounts SET premium_points = premium_points + '".$NumItens * 1.5."' WHERE name = '".htmlspecialchars($accname)."'");
+mysql_query("UPDATE accounts SET premium_points = premium_points + '$NumItens' * 2 WHERE name = '".htmlspecialchars($accname)."'");
 mysql_query("UPDATE pagsegurotransacoes SET StatusTransacao = 'Entregue' WHERE CONVERT( `pagsegurotransacoes`.`TransacaoID` USING utf8 ) = '$TransacaoID' AND CONVERT( `pagsegurotransacoes`.`StatusTransacao` USING utf8 ) = 'Aprovado' LIMIT 1 ;");
 mysql_query('OPTIMIZE TABLE  `pagsegurotransacoes`');
 }
