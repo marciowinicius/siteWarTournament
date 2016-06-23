@@ -2,7 +2,7 @@
 $main_content .= '
 <h3> Guia VIP Map </h3>
 <br/>
-<h2>Mind Freak</h2>
+<h2>War Tournament</h2>
 <img src="../images/mapavip/mindfreak.png" alt="Mind Freak city">
 <br/>
 <h2>Ethno</h2>

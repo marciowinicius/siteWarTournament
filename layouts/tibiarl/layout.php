@@ -11,8 +11,8 @@ if(!defined('INITIALIZED'))
 <meta http-equiv="content-language" content="en">
 <meta name="keywords" content="free online rpg, free mmorpg, mmorpg, mmog, online role playing game, online multiplayer game, internet game, online rpg, rpg">
 <!--ICON-->
-<link rel="shortcut icon" href="<?PHP echo $layout_name; ?>/images/general/favicon.ico" type="image/x-icon">
-<link rel="icon" href="<?PHP echo $layout_name; ?>/images/general/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?PHP echo $layout_name; ?>/images/general/favicon.gif" type="image/x-icon">
+<link rel="icon" href="<?PHP echo $layout_name; ?>/images/general/favicon.gif" type="image/x-icon">
 <!--CSS'S-->
 <link href="<?PHP echo $layout_name; ?>/css/basic_d.css" rel="stylesheet" type="text/css">
 <link href="<?PHP echo $layout_name; ?>/css/news.css" rel="stylesheet" type="text/css">
@@ -273,10 +273,18 @@ var FB_ForceReload = 0;
 						<div class="RightChain" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);"></div>
 					</div>
 				</a>
+				<a href='?subtopic=wartournament'>
+				  <div id='submenu_wartournament' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
+					<div class='LeftChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_polls' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel'><font color=red>War Tournament</font></div>
+					<div class='RightChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
+				  </div>
+				</a>
 				<a href='?subtopic=wars'>
 				  <div id='submenu_wars' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
 					<div class='LeftChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
-					<div id='ActiveSubmenuItemIcon_polls' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_wars' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
 					<div class='SubmenuitemLabel'><font color=red>Guild Wars</font></div>
 					<div class='RightChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
 				  </div>
@@ -284,7 +292,7 @@ var FB_ForceReload = 0;
 				<a href='?subtopic=woe'>
 				  <div id='submenu_woe' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
 					<div class='LeftChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
-					<div id='ActiveSubmenuItemIcon_polls' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_woe' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
 					<div class='SubmenuitemLabel'><font color=red>War of Emperium</font></div>
 					<div class='RightChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
 				  </div>

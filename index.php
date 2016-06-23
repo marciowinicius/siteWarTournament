@@ -20,7 +20,7 @@
 		<![endif]-->
 		<script>if(Function('/*@cc_on return document.documentMode===10@*/')()){document.documentElement.className+=' ie10';}</script>	 
 		<!-- favicon & idevice homepage thumb -->
-		<link rel="shortcut icon" href="favicon.jpg" />
+		<link rel="shortcut icon" href="favicon.gif" />
 		
 		<style>body {background-color: #000000; }</style>
 				<!-- compressed stylesheet -->
@@ -91,10 +91,10 @@
 			<div data-delay="3.0"><div class="burst">The hugest and best server</div></div>
 			<div data-delay="0">
 				<div class="burst" data-duration=".5" data-transition="peZoomIn">
-					<a href="http://127.0.0.1/gesior/index3.php?subtopic=accountmanagement">War Tournament</a>
+					<a href="index3.php?subtopic=accountmanagement">War Tournament</a>
 				</div>
 				<div class="small" data-duration="2" data-delay="4" data-transition="fadeIn" data-x="0" data-y="110">
-					<a href="http://127.0.0.1/gesior/index3.php?subtopic=accountmanagement">Create account</a>
+					<a href="index3.php?subtopic=accountmanagement">Create account</a>
 				</div>
 			</div>
 		
